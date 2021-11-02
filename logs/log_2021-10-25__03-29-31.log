@@ -1,0 +1,25 @@
+2021-10-25 15:29:31.880  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-10-25 15:29:31.883  INFO [main] DriverInitalisation:22 - Google browser
+2021-10-25 15:29:33.834  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-10-25 15:29:33.869  INFO [main] Base:59 - Opening url
+2021-10-25 15:29:38.002  INFO [main] Base:61 - Url opened
+2021-10-25 15:29:39.712  INFO [main] Base:22 - Login page opened
+2021-10-25 15:29:42.033  INFO [main] Base:24 - Clicked on login
+2021-10-25 15:29:42.837  INFO [main] Base:68 - Driver Closed
+2021-10-25 15:29:42.842  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-10-25 15:29:42.843  INFO [main] DriverInitalisation:22 - Google browser
+2021-10-25 15:29:44.252  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-10-25 15:29:44.258  INFO [main] Base:59 - Opening url
+2021-10-25 15:29:47.741  INFO [main] Base:61 - Url opened
+2021-10-25 15:29:51.378  INFO [main] Base:68 - Driver Closed
+2021-10-25 15:29:51.380  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-10-25 15:29:51.380  INFO [main] DriverInitalisation:22 - Google browser
+2021-10-25 15:29:52.795  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-10-25 15:29:52.802  INFO [main] Base:59 - Opening url
+2021-10-25 15:29:56.059  INFO [main] Base:61 - Url opened
+2021-10-25 15:29:56.938  INFO [main] Base:68 - Driver Closed
+2021-10-25 15:29:56.982 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-10-25 15:29:56.983 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-10-25 15:29:56.985 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-10-25 15:29:56.987 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-10-25 15:29:56.988 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

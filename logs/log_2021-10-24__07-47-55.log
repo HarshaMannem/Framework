@@ -1,0 +1,25 @@
+2021-10-24 07:47:55.465  INFO [main] Base:52 - Driver Setup
+2021-10-24 07:47:55.467  INFO [main] Base:56 - Google browser
+2021-10-24 07:47:57.346  INFO [main] Base:59 - Initialization of Driver
+2021-10-24 07:47:57.364  INFO [main] Base:84 - Opening url
+2021-10-24 07:48:00.537  INFO [main] Base:86 - Url opened
+2021-10-24 07:48:00.642  INFO [main] Base:91 - Driver Closed
+2021-10-24 07:48:01.390  INFO [main] Base:52 - Driver Setup
+2021-10-24 07:48:01.391  INFO [main] Base:56 - Google browser
+2021-10-24 07:48:02.786  INFO [main] Base:59 - Initialization of Driver
+2021-10-24 07:48:02.794  INFO [main] Base:84 - Opening url
+2021-10-24 07:48:06.100  INFO [main] Base:86 - Url opened
+2021-10-24 07:48:08.973  INFO [main] Base:91 - Driver Closed
+2021-10-24 07:48:09.707  INFO [main] Base:52 - Driver Setup
+2021-10-24 07:48:09.708  INFO [main] Base:56 - Google browser
+2021-10-24 07:48:11.096  INFO [main] Base:59 - Initialization of Driver
+2021-10-24 07:48:11.116  INFO [main] Base:84 - Opening url
+2021-10-24 07:48:14.161  INFO [main] Base:86 - Url opened
+2021-10-24 07:48:15.860  INFO [main] Base:50 - Login page opened
+2021-10-24 07:48:16.258  INFO [main] Base:53 - Clicked on login
+2021-10-24 07:48:16.262  INFO [main] Base:91 - Driver Closed
+2021-10-24 07:48:17.047 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-10-24 07:48:17.049 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-10-24 07:48:17.050 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-10-24 07:48:17.050 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-10-24 07:48:17.051 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-02T13:46:45 IST" name="Suite" finished-at="2021-11-02T13:47:12 IST" duration-ms="27006">
+    <groups>
+    </groups>
+    <test started-at="2021-11-02T13:46:45 IST" name="Test" finished-at="2021-11-02T13:47:12 IST" duration-ms="27006">
+      <class name="com.elocalshops.Runner.Product_Search_Check">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:46:58 IST" name="DriverSetup" finished-at="2021-11-02T13:47:00 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:00 IST" name="beforeMethod" finished-at="2021-11-02T13:47:03 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchItem()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:03 IST" name="searchItem" finished-at="2021-11-02T13:47:06 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:06 IST" name="afterClass" finished-at="2021-11-02T13:47:06 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.elocalshops.Runner.Product_Search_Check -->
+      <class name="com.elocalshops.Runner.Login_check">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:45 IST" name="beforeClass" finished-at="2021-11-02T13:46:45 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:45 IST" name="DriverSetup" finished-at="2021-11-02T13:46:48 IST" duration-ms="2624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:48 IST" name="beforeMethod" finished-at="2021-11-02T13:46:53 IST" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login_to_Site(java.lang.String,java.lang.String)[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:53 IST" name="Login_to_Site" data-provider="getData" finished-at="2021-11-02T13:46:57 IST" duration-ms="4360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harsha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_Site -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:57 IST" name="afterClass" finished-at="2021-11-02T13:46:58 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:47:12 IST" name="afterSuite" finished-at="2021-11-02T13:47:12 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.elocalshops.Runner.Login_check -->
+      <class name="com.elocalshops.Runner.ValidateTitle">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:06 IST" name="DriverSetup" finished-at="2021-11-02T13:47:08 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:08 IST" name="beforeMethod" finished-at="2021-11-02T13:47:11 IST" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Validation()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:11 IST" name="Validation" finished-at="2021-11-02T13:47:11 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:11 IST" name="afterClass" finished-at="2021-11-02T13:47:12 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.elocalshops.Runner.ValidateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
