@@ -3,6 +3,7 @@ package com.elocalshops.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.elocalshops.UIstore.HomePageUI;
 
@@ -25,6 +26,12 @@ public class HomePage {
 		search_Box().sendKeys(pname);
 		search_button().click();
 	}
+	public void click_on_fictionNovels_form_books()
+	{
+		Actions a=new Actions(driver);
+		a.moveToElement(Books()).pause(1000).moveToElement(Fictionbooks()).click().build().perform();
+		
+	}
 	
 	//Returning the all the elements  in the HomepageUI
 	
@@ -40,6 +47,16 @@ public class HomePage {
 	public WebElement search_button()
 	{
 		return driver.findElement(HomePageUI.searchButton);
+	}
+	
+	public WebElement Books()
+	{
+		return driver.findElement(HomePageUI.books);
+	}
+	
+	public WebElement Fictionbooks()
+	{
+		return driver.findElement(HomePageUI.fictbooks);
 	}
 
 }

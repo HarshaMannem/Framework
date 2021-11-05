@@ -1,43 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-02T13:46:45 IST" name="Suite" finished-at="2021-11-02T13:47:12 IST" duration-ms="27006">
+  <suite started-at="2021-11-04T21:07:15 IST" name="Suite" finished-at="2021-11-04T21:08:10 IST" duration-ms="54945">
     <groups>
     </groups>
-    <test started-at="2021-11-02T13:46:45 IST" name="Test" finished-at="2021-11-02T13:47:12 IST" duration-ms="27006">
+    <test started-at="2021-11-04T21:07:15 IST" name="Test" finished-at="2021-11-04T21:08:10 IST" duration-ms="54945">
       <class name="com.elocalshops.Runner.Product_Search_Check">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:46:58 IST" name="DriverSetup" finished-at="2021-11-02T13:47:00 IST" duration-ms="1533" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DriverSetup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:00 IST" name="beforeMethod" finished-at="2021-11-02T13:47:03 IST" duration-ms="3188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="searchItem()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:03 IST" name="searchItem" finished-at="2021-11-02T13:47:06 IST" duration-ms="2921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchItem -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@7188af83]" started-at="2021-11-02T13:47:06 IST" name="afterClass" finished-at="2021-11-02T13:47:06 IST" duration-ms="705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.elocalshops.Runner.Product_Search_Check -->
-      <class name="com.elocalshops.Runner.Login_check">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:45 IST" name="beforeClass" finished-at="2021-11-02T13:46:45 IST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:07:15 IST" name="beforeClass" finished-at="2021-11-04T21:07:15 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:45 IST" name="DriverSetup" finished-at="2021-11-02T13:46:48 IST" duration-ms="2624" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:07:15 IST" name="DriverSetup" finished-at="2021-11-04T21:07:17 IST" duration-ms="2199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverSetup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:48 IST" name="beforeMethod" finished-at="2021-11-02T13:46:53 IST" duration-ms="5508" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:07:17 IST" name="beforeMethod" finished-at="2021-11-04T21:07:23 IST" duration-ms="5815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Login_to_Site(java.lang.String,java.lang.String)[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:53 IST" name="Login_to_Site" data-provider="getData" finished-at="2021-11-02T13:46:57 IST" duration-ms="4360" status="PASS">
+        <test-method signature="searchItem()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:07:23 IST" name="searchItem" finished-at="2021-11-04T21:07:27 IST" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:07:27 IST" name="afterClass" finished-at="2021-11-04T21:07:28 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.elocalshops.Runner.Product_Search_Check@70ed52de]" started-at="2021-11-04T21:08:10 IST" name="afterSuite" finished-at="2021-11-04T21:08:10 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.elocalshops.Runner.Product_Search_Check -->
+      <class name="com.elocalshops.Runner.Add_FictionBook_to_cart">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Add_FictionBook_to_cart@303cf2ba]" started-at="2021-11-04T21:07:28 IST" name="DriverSetup" finished-at="2021-11-04T21:07:29 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Add_FictionBook_to_cart@303cf2ba]" started-at="2021-11-04T21:07:29 IST" name="beforeMethod" finished-at="2021-11-04T21:07:34 IST" duration-ms="4433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Add_fictionbook_cart()[pri:1, instance:com.elocalshops.Runner.Add_FictionBook_to_cart@303cf2ba]" started-at="2021-11-04T21:07:34 IST" name="Add_fictionbook_cart" finished-at="2021-11-04T21:07:43 IST" duration-ms="9252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_fictionbook_cart -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Add_FictionBook_to_cart@303cf2ba]" started-at="2021-11-04T21:07:43 IST" name="afterClass" finished-at="2021-11-04T21:07:44 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.elocalshops.Runner.Add_FictionBook_to_cart -->
+      <class name="com.elocalshops.Runner.Login_using_exceldata">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Login_using_exceldata@76494737]" started-at="2021-11-04T21:07:44 IST" name="DriverSetup" finished-at="2021-11-04T21:07:45 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Login_using_exceldata@76494737]" started-at="2021-11-04T21:07:45 IST" name="beforeMethod" finished-at="2021-11-04T21:07:49 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login_using_exceldata()[pri:0, instance:com.elocalshops.Runner.Login_using_exceldata@76494737]" started-at="2021-11-04T21:07:49 IST" name="login_using_exceldata" finished-at="2021-11-04T21:07:53 IST" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_using_exceldata -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Login_using_exceldata@76494737]" started-at="2021-11-04T21:07:53 IST" name="afterClass" finished-at="2021-11-04T21:07:54 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.elocalshops.Runner.Login_using_exceldata -->
+      <class name="com.elocalshops.Runner.Login_check">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.Login_check@4a003cbe]" started-at="2021-11-04T21:07:54 IST" name="DriverSetup" finished-at="2021-11-04T21:07:56 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.Login_check@4a003cbe]" started-at="2021-11-04T21:07:56 IST" name="beforeMethod" finished-at="2021-11-04T21:07:59 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login_to_Site(java.lang.String,java.lang.String)[pri:0, instance:com.elocalshops.Runner.Login_check@4a003cbe]" started-at="2021-11-04T21:07:59 IST" name="Login_to_Site" data-provider="getData" finished-at="2021-11-04T21:08:02 IST" duration-ms="3104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,29 +93,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_to_Site -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:46:57 IST" name="afterClass" finished-at="2021-11-02T13:46:58 IST" duration-ms="722" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.Login_check@4a003cbe]" started-at="2021-11-04T21:08:02 IST" name="afterClass" finished-at="2021-11-04T21:08:03 IST" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.elocalshops.Runner.Login_check@3e08ff24]" started-at="2021-11-02T13:47:12 IST" name="afterSuite" finished-at="2021-11-02T13:47:12 IST" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- com.elocalshops.Runner.Login_check -->
       <class name="com.elocalshops.Runner.ValidateTitle">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:06 IST" name="DriverSetup" finished-at="2021-11-02T13:47:08 IST" duration-ms="1510" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@4082ba93]" started-at="2021-11-04T21:08:03 IST" name="DriverSetup" finished-at="2021-11-04T21:08:05 IST" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverSetup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:08 IST" name="beforeMethod" finished-at="2021-11-02T13:47:11 IST" duration-ms="2984" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@4082ba93]" started-at="2021-11-04T21:08:05 IST" name="beforeMethod" finished-at="2021-11-04T21:08:09 IST" duration-ms="4367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Validation()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:11 IST" name="Validation" finished-at="2021-11-02T13:47:11 IST" duration-ms="217" status="PASS">
+        <test-method signature="Validation()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@4082ba93]" started-at="2021-11-04T21:08:09 IST" name="Validation" finished-at="2021-11-04T21:08:09 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validation -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@6be968ce]" started-at="2021-11-02T13:47:11 IST" name="afterClass" finished-at="2021-11-02T13:47:12 IST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.elocalshops.Runner.ValidateTitle@4082ba93]" started-at="2021-11-04T21:08:09 IST" name="afterClass" finished-at="2021-11-04T21:08:10 IST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

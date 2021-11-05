@@ -1,7 +1,5 @@
 package com.elocalshops.ReusableComponents;
 
-
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -14,8 +12,12 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+
+import com.elocalshops.PageObjects.FictionNovelsPage;
 import com.elocalshops.PageObjects.HomePage;
 import com.elocalshops.PageObjects.LoginPage;
+import com.elocalshops.Utilities.ConfigProperty;
+import com.elocalshops.Utilities.ExcelDriver;
 import com.elocalshops.Utilities.ExtentFactory;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -31,6 +33,7 @@ public class Base {
 		public String testname;
 		public static HomePage homepage;
 		public static LoginPage loginpage;
+		public static FictionNovelsPage books;
 		
 		
 		
@@ -44,21 +47,23 @@ public class Base {
 	    @BeforeClass
 	    public void DriverSetup() throws IOException
 	    {   
-	    	prop=new Properties();
-			FileInputStream fis=new FileInputStream("D:\\SeleniumNew\\Framework\\src\\main\\resources\\config.properties");
-			prop.load(fis);
-			String browsername=prop.getProperty("browser");
+	 
+	    	String browsername=ConfigProperty.getBrowsername();
 	    	driver=DriverInitalisation.intializedriver(driver,browsername);
 	    	homepage=new HomePage(driver);
 	    	loginpage=new LoginPage(driver);
+	    	books=new FictionNovelsPage(driver);
 	    }
 		
 	    @BeforeMethod
-	    public void beforeMethod()
+	    public void beforeMethod() throws IOException
 	    {
 	    	log.info("Opening url");
-			driver.get(prop.getProperty("url"));
+	    	String url=ConfigProperty.getUrl();
+			driver.get(url);
 			log.info("Url opened");
+			ExcelDriver.WorkBookSetup();
+			log.info("Excel WorkBook Setup is done");
 	    }
 	    @AfterClass
 		 public void afterClass()

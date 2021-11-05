@@ -1,0 +1,48 @@
+2021-11-04 21:07:15.510  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 21:07:15.512  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 21:07:17.676  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 21:07:17.723  INFO [main] Base:61 - Opening url
+2021-11-04 21:07:22.590  INFO [main] Base:64 - Url opened
+2021-11-04 21:07:23.536  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 21:07:28.283  INFO [main] Base:73 - Driver Closed
+2021-11-04 21:07:28.287  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 21:07:28.288  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 21:07:29.872  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 21:07:29.880  INFO [main] Base:61 - Opening url
+2021-11-04 21:07:34.261  INFO [main] Base:64 - Url opened
+2021-11-04 21:07:34.312  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 21:07:38.634  INFO [main] Base:12 - Selected the fiction novels from Books dropdown and clicked on it
+2021-11-04 21:07:42.836  INFO [main] Base:14 - clicked on the book harry from the books displayed
+2021-11-04 21:07:43.562  INFO [main] Base:16 - Added the selected book to the cart
+2021-11-04 21:07:44.333  INFO [main] Base:73 - Driver Closed
+2021-11-04 21:07:44.336  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 21:07:44.336  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 21:07:45.920  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 21:07:45.937  INFO [main] Base:61 - Opening url
+2021-11-04 21:07:49.111  INFO [main] Base:64 - Url opened
+2021-11-04 21:07:49.141  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 21:07:51.073  INFO [main] Base:15 - Login page opened
+2021-11-04 21:07:53.779  INFO [main] Base:19 - Clicked on login
+2021-11-04 21:07:54.550  INFO [main] Base:73 - Driver Closed
+2021-11-04 21:07:54.552  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 21:07:54.553  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 21:07:56.171  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 21:07:56.186  INFO [main] Base:61 - Opening url
+2021-11-04 21:07:59.481  INFO [main] Base:64 - Url opened
+2021-11-04 21:07:59.512  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 21:08:00.432  INFO [main] Base:22 - Login page opened
+2021-11-04 21:08:02.615  INFO [main] Base:24 - Clicked on login
+2021-11-04 21:08:03.399  INFO [main] Base:73 - Driver Closed
+2021-11-04 21:08:03.401  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 21:08:03.402  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 21:08:05.118  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 21:08:05.137  INFO [main] Base:61 - Opening url
+2021-11-04 21:08:09.476  INFO [main] Base:64 - Url opened
+2021-11-04 21:08:09.503  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 21:08:09.737  INFO [main] Base:21 - Title Matched
+2021-11-04 21:08:10.437  INFO [main] Base:73 - Driver Closed
+2021-11-04 21:08:10.489 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-11-04 21:08:10.491 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-11-04 21:08:10.492 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-04 21:08:10.504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-04 21:08:10.505 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,0 +1,13 @@
+2021-11-04 16:55:58.142  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 16:55:58.143  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 16:56:00.468  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 16:56:00.513  INFO [main] Base:57 - Opening url
+2021-11-04 16:56:05.144  INFO [main] Base:60 - Url opened
+2021-11-04 16:56:06.032  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 16:56:06.750  INFO [main] Base:23 - Login page opened
+2021-11-04 16:56:08.744  INFO [main] Base:25 - Clicked on login
+2021-11-04 16:56:08.751  INFO [main] Base:57 - Opening url
+2021-11-04 16:56:11.274  INFO [main] Base:60 - Url opened
+2021-11-04 16:56:11.327  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 16:56:11.644  INFO [main] Base:34 - Login page opened
+2021-11-04 16:56:32.873  INFO [main] Base:69 - Driver Closed

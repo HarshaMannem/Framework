@@ -6,8 +6,8 @@
       <class name="com.elocalshops.Runner.Login_check">
         <methods>
           <include name="beforeMethod"/>
+          <include name="login_using_exceldata"/>
           <include name="beforeClass"/>
-          <include name="Login_to_Site"/>
           <include name="DriverSetup"/>
           <include name="afterSuite"/>
           <include name="afterClass"/>

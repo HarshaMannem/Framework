@@ -1,0 +1,18 @@
+2021-11-04 16:58:19.008  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 16:58:19.009  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 16:58:21.121  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 16:58:21.153  INFO [main] Base:57 - Opening url
+2021-11-04 16:58:24.302  INFO [main] Base:60 - Url opened
+2021-11-04 16:58:25.254  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 16:58:26.960  INFO [main] Base:23 - Login page opened
+2021-11-04 16:58:27.511  INFO [main] Base:25 - Clicked on login
+2021-11-04 16:58:27.519  INFO [main] Base:57 - Opening url
+2021-11-04 16:58:32.210  INFO [main] Base:60 - Url opened
+2021-11-04 16:58:32.256  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 16:58:32.754  INFO [main] Base:34 - Login page opened
+2021-11-04 16:58:43.931  INFO [main] Base:69 - Driver Closed
+2021-11-04 16:58:43.990 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-11-04 16:58:43.991 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-11-04 16:58:43.992 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-04 16:58:43.994 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-04 16:58:43.994 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

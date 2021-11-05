@@ -22,9 +22,10 @@ public class Login_check extends Base {
 		log.info("Login page opened");
 		loginpage.Login(name, password);
 	    log.info("Clicked on login");
-	    test.log(LogStatus.PASS, "Login is done");
+	    test.log(LogStatus.PASS, "Login is done using dataprovider user data");
 	    
 	}
+	
 	
 	@DataProvider
 	public Object[][] getData()

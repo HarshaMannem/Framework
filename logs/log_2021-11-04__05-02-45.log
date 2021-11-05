@@ -1,0 +1,37 @@
+2021-11-04 17:02:45.671  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 17:02:45.671  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 17:02:47.804  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 17:02:47.844  INFO [main] Base:57 - Opening url
+2021-11-04 17:02:52.413  INFO [main] Base:60 - Url opened
+2021-11-04 17:02:53.255  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 17:02:54.938  INFO [main] Base:22 - Login page opened
+2021-11-04 17:02:55.539  INFO [main] Base:24 - Clicked on login
+2021-11-04 17:02:56.357  INFO [main] Base:69 - Driver Closed
+2021-11-04 17:02:56.357  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 17:02:56.363  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 17:02:57.940  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 17:02:57.950  INFO [main] Base:57 - Opening url
+2021-11-04 17:03:02.390  INFO [main] Base:60 - Url opened
+2021-11-04 17:03:02.426  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 17:03:04.228  INFO [main] Base:15 - Login page opened
+2021-11-04 17:03:06.561  INFO [main] Base:19 - Clicked on login
+2021-11-04 17:03:07.309  INFO [main] Base:69 - Driver Closed
+2021-11-04 17:03:07.310  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 17:03:07.312  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 17:03:08.913  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 17:03:08.925  INFO [main] Base:57 - Opening url
+2021-11-04 17:03:13.287  INFO [main] Base:60 - Url opened
+2021-11-04 17:03:13.322  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 17:03:14.792  INFO [main] Base:69 - Driver Closed
+2021-11-04 17:03:14.793  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 17:03:14.795  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 17:03:16.381  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 17:03:16.397  INFO [main] Base:57 - Opening url
+2021-11-04 17:03:20.646  INFO [main] Base:60 - Url opened
+2021-11-04 17:03:20.675  INFO [main] Base:62 - Excel WorkBook Setup is done
+2021-11-04 17:03:21.625  INFO [main] Base:69 - Driver Closed
+2021-11-04 17:03:21.671 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-11-04 17:03:21.673 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-11-04 17:03:21.674 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-04 17:03:21.675 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-04 17:03:21.675 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

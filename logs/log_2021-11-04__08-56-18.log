@@ -1,0 +1,15 @@
+2021-11-04 20:56:18.955  INFO [main] DriverInitalisation:18 - Driver Setup
+2021-11-04 20:56:18.957  INFO [main] DriverInitalisation:22 - Google browser
+2021-11-04 20:56:21.118  INFO [main] DriverInitalisation:25 - Initialization of Driver
+2021-11-04 20:56:21.159  INFO [main] Base:61 - Opening url
+2021-11-04 20:56:25.887  INFO [main] Base:64 - Url opened
+2021-11-04 20:56:27.012  INFO [main] Base:66 - Excel WorkBook Setup is done
+2021-11-04 20:56:31.130  INFO [main] Base:12 - Selected the fiction novels from Books dropdown and clicked on it
+2021-11-04 20:56:35.176  INFO [main] Base:14 - clicked on the book harry from the books displayed
+2021-11-04 20:56:35.874  INFO [main] Base:16 - Added the selected book to the cart
+2021-11-04 20:56:36.681  INFO [main] Base:73 - Driver Closed
+2021-11-04 20:56:36.802 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-11-04 20:56:36.804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-11-04 20:56:36.806 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-04 20:56:36.807 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-04 20:56:36.807 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HARSHA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
 		<listener class-name="com.elocalshops.Utilities.Listeners" />
@@ -7,8 +7,10 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.elocalshops.Runner.Login_check" />
 			<class name="com.elocalshops.Runner.Product_Search_Check" />
+			<class name="com.elocalshops.Runner.Add_FictionBook_to_cart" />
+			<class name="com.elocalshops.Runner.Login_using_exceldata" />
+			<class name="com.elocalshops.Runner.Login_check" />
 			<class name="com.elocalshops.Runner.ValidateTitle" />
 		</classes>
 	</test> <!-- Test -->
